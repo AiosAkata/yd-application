@@ -1,0 +1,391 @@
+header{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+header h4{
+    font-size: 22px;
+}
+.text-ydr{
+    color: #ff6200;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.yd-reservation{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.yd-logo{
+    margin: 50px auto 20px;
+    width: 100px;
+}
+.ydr-info{
+    font-size: 16px;
+    color: #676767;
+    font-weight: 300;
+}
+.ydr-info img{
+    width: 100%;
+}
+.ydr-info b{
+    font-weight: 600;
+    color: #ff1616;
+}
+.ydr-btns{
+    text-align: center;
+    margin: 30px auto;
+}
+.ydr-btn{
+    cursor: pointer;
+    width: 340px;
+    height: 52px;
+    line-height: 50px;
+    border-radius: 12px;
+    margin: 10px auto;
+    color: #fff;
+    border: none;
+}
+.ydr-btn-type02{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: #35324e;
+    color: white;
+    border: none;
+}
+.a-alone{
+    background: #ff6200;
+}
+.a-together{
+    background: #ff8a00;
+}
+.a-etc{
+    background: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    color: #222;
+}
+.a-check{
+    background: #35324e;
+    font-weight: 300;
+}
+.yd-logo-form{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.ydr-tit{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #ff8d00;
+}
+.ydr-form-list{
+    width: 100%;
+}
+.ydr-form-item{
+    margin-top: 30px;
+    text-align: left;
+}
+.ydr-form-item h6 img{
+    height: 26px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.ydr-form-tit{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.ydr-form-tit span{
+    color: #ff1616;
+    font-size: .75em;
+    vertical-align: text-top;
+}
+.ydr-form-notice{
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+.ydr-form-cnt{
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    margin-top: 5px;
+}
+.ydr-form-item input,
+.ydr-form-item select{
+    background-color: white;
+}
+.ydr-form-item input{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    height: 52px;
+    line-height: 48px;
+    padding: 0 20px;
+}
+
+.ydr-form-item textarea{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 10px;
+}
+.ydr-form-item pre{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    font-weight: inherit !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    line-height: inherit !important;
+    margin: 0;
+}
+.ydr-form-item input.postcode{
+    width: 65%;
+    margin-bottom: 10px;
+}
+.ydr-form-item input.addr{
+    margin-bottom: 10px;
+}
+.ydr-form-item button.post-button{
+    width: 30%;
+    height: 52px;
+    line-height: 50px;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    background: #ff6200;
+    vertical-align: top;
+    overflow: hidden;
+}
+.ydr-form-searchWrap{
+    display: none;
+    border: 1px solid;
+    width: 100%;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+    transition: 0.2s;
+}
+.ydr-form-searchWrap .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    z-index: 1;
+}
+.ydr-form-item input::placeholder{
+    color: #999;
+    font-weight: 300;
+    font-size: 16px;
+}
+.ydr-select{
+    width: 50%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    height: 52px;
+    line-height: 48px;
+    padding: 0 20px;
+}
+.form-btn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.prev-page{
+    position: absolute;
+    z-index: 9;
+    width: 10px;
+    top: 0;
+    cursor: pointer;
+}
+.ydr-form-list h6{
+    font-size: 22px;
+    text-align: left;
+    /*border-top: 1px solid #676767;*/
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color: #ff6200;
+}
+
+.ydr-check-box div{
+    background: #f9f9f9;
+    color: #676767;
+    border-radius: 26px;
+    border: 1px solid #eee;
+    padding-left: 20px;
+    height: 52px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+.ydr-check-box div.active{
+    background: #35324e;
+    color: #fff;
+}
+.ydr-check-box input{
+    width: auto;
+    height: auto;
+    line-height: 20px;
+    display: none;
+}
+.ydr-check-box label{
+    padding-left: 20px;
+    width: 100%;
+    background-image: url(../images/common/check-off.png);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: left center;
+}
+
+.ydr-check-box div.active label{
+    background-image: url(../images/common/check-on.png);
+}
+.ydr-ok .ydr-tit{
+    border-bottom: unset;
+    margin: 5px auto 30px;
+}
+.ydr-ok-item{
+    border: 1px solid #eee;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-align: left;
+}
+.ydr-ok-tit{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.ydr-ok-tit span{
+    color: #ff6200;
+    margin-right: 10px;
+}
+.ydr-ok-tit:last-child{
+    margin-bottom: 0;
+}
+.ydr-ok-tit.ok-together span{
+    color: #ff6200;
+}
+.ydr-check-tit{
+    border-bottom-color: #35324e;
+}
+.yd-login{
+    padding-top: 50px!important;
+}
+.yd-login h2{
+    margin-bottom: 30px;
+}
+.input-login input{
+    width: 340px;
+    height: 52px;
+    line-height: 48px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.guest-list{
+    margin: 30px -20px;
+    background: #f9f9f9;
+    padding: 30px 0;
+}
+.guest-item{
+    width: calc( 100% / 3 );
+    float: left;
+    text-align: center;
+}
+.guest-nn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: 600;
+}
+.guest-nn.a-white{
+    background: #fff;
+    border: 1px solid #eee;
+    color: #222;
+}
+.guest-nn span{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 1px;
+}
+.guest-item p{
+    margin-top: 5px;
+    font-weight: 500;
+}
+.in-out-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.in-out-item{
+    margin: 0 10px;
+}
+.in-out-item div{
+    width: 150px;
+    height: 150px;
+    line-height: 145px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+.in-out-item p{
+    margin-top: 5px;
+    font-weight: 500;
+}
+.a-out{
+    background: #676767;
+}
+.temp-bridge{
+    display: none !important;
+}
+
+@media (max-width: 768px){
+    .yd-reservation{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .yd-logo-form{
+        margin: 30px auto 5px;
+    }
+    .ydr-tit{
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom-width: 3px;
+    }
+    .ydr-form-tit{
+        font-size: 16px;
+    }
+    .ydr-form-list h6{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .ydr-form-item input::placeholder{
+        font-size: 14px;
+    }
+} 
